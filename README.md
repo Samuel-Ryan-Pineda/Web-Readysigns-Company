@@ -1,2 +1,2 @@
-# Web-Redesign-Company
-Website for a company named Web Redesign :)
+# Web-Redysign-Company
+Website for a company named Web Redysign :)

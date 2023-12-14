@@ -241,6 +241,11 @@ footer a:hover {
     background: #8d371f;
 }
 
+.workcont {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 @keyframes slideInBottom {
     0% {
       transform: translateX(0);

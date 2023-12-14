@@ -46,3 +46,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     window.addEventListener("scroll", checkScroll);
 });
+
+function scrollToCenter(elementId) {
+    var element = document.getElementById(elementId);
+
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }

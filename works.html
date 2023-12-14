@@ -56,27 +56,27 @@
         <h3 style="text-align: center;" class="mt-5">Check our works</h3>
         <hr>
         <div class="row my-4">
-            <a href="#pineda" class="col-lg-2 col-md-4 col-6 my-3 text-center imglink">
+            <a class="col-lg-2 col-md-4 col-6 my-3 text-center imglink" onclick="scrollToCenter('pineda')">
                 <img src="./images/sam.jpg" alt="Samuel Ryan Pineda" class="img-fluid imgwork my-2">
                 <h6>Mr. Pineda</h6>
             </a>
-            <a href="#nacino" class="col-lg-2 col-md-4 col-6 my-3 text-center imglink">
+            <a class="col-lg-2 col-md-4 col-6 my-3 text-center imglink" onclick="scrollToCenter('nacino')">
                 <img src="./images/amor.jpg" alt="Christina Amor Nacino" class="img-fluid imgwork my-2">
                 <h6>Ms. Nacino</h6>
             </a>
-            <a href="#dairo" class="col-lg-2 col-md-4 col-6 my-3 text-center imglink">
+            <a class="col-lg-2 col-md-4 col-6 my-3 text-center imglink" onclick="scrollToCenter('dairo')">
                 <img src="./images/vin.jpg" alt="Vin Jessell Dairo" class="img-fluid imgwork my-2">
                 <h6>Mr. Dairo</h6>
             </a>
-            <a href="#vanzuela" class="col-lg-2 col-md-4 col-6 my-3 text-center imglink">
+            <a class="col-lg-2 col-md-4 col-6 my-3 text-center imglink" onclick="scrollToCenter('vanzuela')">
                 <img src="./images/jaimie.jpg" alt="Jaimie Marie Vanzuela" class="img-fluid imgwork my-2">
                 <h6>Ms. Vanzuela</h6>
             </a>
-            <a href="#cabanting" class="col-lg-2 col-md-4 col-6 my-3 text-center imglink">
+            <a class="col-lg-2 col-md-4 col-6 my-3 text-center imglink" onclick="scrollToCenter('cabanting')">
                 <img src="./images/fidel.jpg" alt="Fidel Henry Cabanting" class="img-fluid imgwork my-2">
                 <h6>Mr. Cabanting</h6>
             </a>
-            <a href="#tejada" class="col-lg-2 col-md-4 col-6 my-3 text-center imglink">
+            <a class="col-lg-2 col-md-4 col-6 my-3 text-center imglink" onclick="scrollToCenter('tejada')">
                 <img src="./images/daisy.jpg" alt="Daisy Joy Tejada" class="img-fluid imgwork my-2">
                 <h6>Ms. Tejada</h6>
             </a>
@@ -84,12 +84,53 @@
         <hr>
     </div>
 
-    <div class="cont1 fade-in-section py-5"  id="pineda">
+    <div class="cont1 fade-in-section workcont" id="pineda">
         <div class="container myCon2 my-5 mt-5">
             <div class="row">
                 <div class="col-md-9 order-1">
                     <div class="employee-section">
-                        <img src="images/gif1.gif" alt="Employee Works" class="works-gif">
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/works/samwork1.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/samwork2.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/samwork3.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/samwork4.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/samwork5.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/samwork6.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/samwork7.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                     <div class="info col-md-3 mx-auto my-auto order-2">
@@ -106,12 +147,53 @@
             </div>
         </div>
     </div>
-    <div class="cont2 fade-in-section py-5"  id="nacino">
+    <div class="cont2 fade-in-section workcont"  id="nacino">
         <div class="container myCon2 my-5 mt-5">
             <div class="row">
                 <div class="col-md-9 order-md-2 order-1">
                     <div class="employee-section">
-                        <img src="images/gif2.gif" alt="Employee Works" class="works-gif">
+                        <div id="carouselExampleCaptions2" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/works/amorwork1.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/amorwork2.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/amorwork3.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/amorwork4.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/amorwork5.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/amorwork6.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/amorwork7.jpg" class="d-block w-100" alt="Samuel Ryan Pineda">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaption2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                     <div class="info col-md-3 my-auto mx-auto order-md-1 order-2">
@@ -128,19 +210,60 @@
             </div>
         </div>
     </div>
-    <div class="cont1 fade-in-section py-5"  id="dairo">
+    <div class="cont1 fade-in-section workcont"  id="dairo">
         <div class="container myCon2 my-5 mt-5">
             <div class="row">
                 <div class="col-md-9 order-1">
                     <div class="employee-section">
-                        <img src="images/gif3.gif" alt="Employee Works" class="works-gif">
+                        <div id="carouselExampleCaptions3" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/works/vinwork1.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/vinwork2.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/vinwork3.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/vinwork4.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/vinwork5.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/vinwork6.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/vinwork7.jpg" class="d-block w-100" alt="Vin Jessell Dairo">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                     <div class="info col-md-3 mx-auto my-auto order-2">
                     <h2>Mr. Dairo</h2>
                     <p><i>Client Relations Associate</i></p>
                     <h5>Check out my works at my Portfolio</h5>
-                    <a href="https://vindairo.github.io/PROFILE/" class="btn workbutton">Visit portfolio
+                    <a href="https://vindairo.github.io/PROFILE/portfolio.html" class="btn workbutton">Visit portfolio
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                             <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
@@ -150,12 +273,53 @@
             </div>
         </div>
     </div>
-    <div class="cont2 fade-in-section py-5"  id="vanzuela">
+    <div class="cont2 fade-in-section workcont"  id="vanzuela">
         <div class="container myCon2 my-5 mt-5">
             <div class="row">
                 <div class="col-md-9 order-md-2 order-1">
                     <div class="employee-section">
-                        <img src="images/gif4.gif" alt="Employee Works" class="works-gif">
+                        <div id="carouselExampleCaptions4" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/works/jaimiework1.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/jaimiework2.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/jaimiework3.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/jaimiework4.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/jaimiework5.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/jaimiework6.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/jaimiework7.jpg" class="d-block w-100" alt="Jaime Marie Vanzuela">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                     <div class="info col-md-3 my-auto mx-auto order-md-1 order-2">
@@ -172,12 +336,53 @@
             </div>
         </div>
     </div>
-    <div class="cont1 fade-in-section py-4"  id="cabanting">
+    <div class="cont1 fade-in-section workcont"  id="cabanting">
         <div class="container myCon2 my-5 mt-5">
             <div class="row">
                 <div class="col-md-9 order-1">
                     <div class="employee-section">
-                        <img src="images/gif5.gif" alt="Employee Works" class="works-gif">
+                        <div id="carouselExampleCaptions5" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/works/fidelwork1.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/fidelwork2.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/fidelwork3.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/fidelwork4.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/fidelwork5.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/fidelwork6.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/fidelwork7.jpg" class="d-block w-100" alt="Fidel Henry Cabanting">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                     <div class="info col-md-3 mx-auto my-auto order-2">
@@ -194,12 +399,53 @@
             </div>
         </div>
     </div>
-    <div class="cont2 fade-in-section py-4"  id="tejada">
+    <div class="cont2 fade-in-section workcont"  id="tejada">
         <div class="container myCon2 my-5 mt-5">
             <div class="row">
                 <div class="col-md-9 order-md-2 order-1">
                     <div class="employee-section">
-                        <img src="images/gif6.gif" alt="Employee Works" class="works-gif">
+                        <div id="carouselExampleCaptions6" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/works/daisywork1.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/daisywork2.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/daisywork3.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/daisywork4.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/daisywork5.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/daisywork6.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/works/daisywork7.jpg" class="d-block w-100" alt="Daisy Joy Tejada">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                     <div class="info col-md-3 my-auto mx-auto order-md-1 order-2">
